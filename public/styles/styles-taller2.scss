@@ -155,10 +155,10 @@
    }
   
    /*aqui esta la foto del nombre de thor*/
-   .portada__info-titulo{
+   /*.portada__info-titulo{
      
      
-   }
+   }*/
    .portada__info-texto{
   
    color: #555252;
@@ -351,12 +351,12 @@
     color: red;
   }*/
    
-   .landing__caracteristica:hover{
+  /* .landing__caracteristica:hover{
     /*-webkit-filter: blur(5px);
     filter: blur(3px);*/
   
     
-  }
+  
   
   .landing__carac-info h1:hover ~ p{
     opacity: 1;
@@ -514,7 +514,8 @@
     font-family: muli;
     font-size: 23px;
     color: #4D4C4C;
-    background:  rgb(248, 130, 219, 0.5);
+    background: rgb(248, 130, 219);
+    opacity: 0.5;
     background-clip: border-box;
     border-radius: 10px;
     
@@ -523,7 +524,7 @@
   
   .inscripcion__fondo{
     display: flex;
-    background-image: url('./imagenes/azul.png');
+    background-image: url('../imagenes/azul.png');
     width: 100%;
     height: 920px;
     background-size: cover;

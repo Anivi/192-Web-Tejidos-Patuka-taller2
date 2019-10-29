@@ -30,7 +30,7 @@ function recorrerFotos(foto, index){
         var nombrePunto = urlImgSplit[urlImgSplit.length - 1].split('.');
         var nombre = nombrePunto[nombrePunto.length-2];
 
-        fotoMostrar.style.backgroundImage = " url('./imagenes/" + nombre + ".png')";
+        fotoMostrar.style.backgroundImage = " url('imagenes/" + nombre + ".png')";
         fotoMostrar.style.transition = "all ease-in 0.3s";
         console.log(nombre);
 
