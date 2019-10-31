@@ -4,10 +4,10 @@ const express = require('express'),
 var app = express();
 
 
-app.engine('handlebars', engines.handlebars);
+app.engine('hbs', engines.handlebars);
 
 app.set('views', './views');
-app.set('view engine', 'handlebars');
+app.set('view engine', 'hbs');
 
 app.use(express.static('public'));
 

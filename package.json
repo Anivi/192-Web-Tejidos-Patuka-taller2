@@ -16,5 +16,8 @@
     "handlebars": "^4.5.1",
     "nodemon": "^1.19.4",
     "npm": "^6.12.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
   }
 }
