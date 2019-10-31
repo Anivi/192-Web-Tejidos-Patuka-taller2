@@ -8,6 +8,7 @@
     <title>Tejidos Patuka</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/footer.css">
 </head>
 
@@ -19,7 +20,7 @@
         </div>
 
         <div class="barra__icono">
-            <img alt="Icono" src="imagenes/bars.svg">
+            <img alt="Icono" src="imagenes/iconos/bars.svg">
         </div>
 
         <div class="barra__navegador">
@@ -35,73 +36,63 @@
     <section class="landing">
 
         <div class="landing__portada">
-            <div class="portada__foto">
-                <img class="portada__foto-thor" src="imagenes/thor.png">
+            <div class="landing__portada__foto">
+                <img class="landing__portada__foto-thor" src="imagenes/thor.png">
             </div>
-            <div class="portada__info">
-                <img class="portada__info-titulo" src="imagenes/thortitu.png" alt="">
-                <p class="portada__info-texto">¿Te encantan los vengadores? <br>
-                    Pues ¡llegó Thor! Es momento de que <br> consigas el tuyo y a sus compañeros <br> que podrás
+            <div class="landing__portada__info">
+                <img class="landing__portada__info-titulo" src="imagenes/thortitu.png" alt="">
+                <p> <strong>¿Te encantan los vengadores? </strong></p>
+                <p>Pues ¡llegó Thor! Es momento de que <br> consigas el tuyo y a sus compañeros <br> que podrás
                     ver en la galeria. <br> ¡Coleccionalos!</p>
-                <button class="portada__info-boton">Comprar</button>
+                <button class="landing__portada__info-boton">Comprar</button>
             </div>
         </div>
         
         <div class="landing__datos">
-            <div class="datos__uno">
-                <div class="datos__uno-img" style="background-image: url(imagenes/corazon.png)"></div>
-                <p class="datos__uno-text">Productos 100% <br> tejidos a mano
-                </p>
+            <div class="landing__datos__uno">
+                <img src="/imagenes/corazon.png" alt="Corazon">
+                <p class="landing__datos__uno-text">Productos 100% <br> tejidos a mano</p>
 
             </div>
-            <div class="datos__uno">
-                <div class="datos__uno-img" style="background-image: url(imagenes/unico.png)"></div>
-                <p class="datos__uno-text">Productos <br> personalizados
-                </p>
-
+            <div class="landing__datos__uno">
+                <img src="/imagenes/unico.png" alt="Unico">
+                <p class="landing__datos__uno-text">Productos <br> personalizados</p>
             </div>
         </div>
 
-        <div class="landing__aleja">
-            <div class="aleja__atras">
-                <img class="aleja__atras-img" src="imagenes/nena.jpg" alt="">
-
-                <div class="aleja__texto">
-                    <h1 class="aleja__texto-titulo">Para toda ocasión</h1>
-                    <p class="aleja__texto-contenido">Llevanos contigo, a la playa, a tierra fría o caliente,
-                        con el estilo que quieras.</p>
-                    <button class="aleja__texto-boton">Ver prendas</button>
-                </div>
+        <div class="landing__aleja"  style="background-image: url('./imagenes/nena.jpg')">
+            <div class="landing__aleja__texto">
+                <h1 class="landing__aleja__texto-titulo">Para toda ocasión</h1>
+                <p class="landing__aleja__texto-contenido">Llevanos contigo, a la playa,<br /> a tierra fría o caliente, con el estilo<br /> que quieras.</p>
+                <button class="landing__aleja__texto-boton">Ver prendas</button>
             </div>
-
-
         </div>
 
         <div class="landing__carac">
-            <div onmouseout="showText()" class="landing__caracteristica"
+            <div onmouseout="showText()" class="landing__carac__caracteristica"
                 style="background-image: url('./imagenes/primero.png')">
-                <div class="landing__carac-info">
-                    <h1 class="landing__carac-tex">Materiales suaves</h1>
-                    <p class="landing__carac-p">Los cuales se adaptan a cualquier clima
+                <div class="landing__carac__caracteristica-info">
+                    <h1 class="landing__carac__caracteristica-info-tex">Materiales suaves</h1>
+                    <p class="landing__carac__caracteristica-info-p">Los cuales se adaptan a cualquier clima
                     </p>
                 </div>
             </div>
 
-            <div onmouseout="showText()" class="landing__caracteristica"
+            <div onmouseout="showText()" class="landing__carac__caracteristica"
                 style="background-image: url('./imagenes/segundo.png')">
 
-                <div class="landing__carac-info">
-                    <h1 class="landing__carac-tex">Tejido 100% a mano</h1>
-                    <p class="landing__carac-p">Lo que hace que cada producto sea único </p>
+                <div class="landing__carac__caracteristica-info">
+                    <h1 class="landing__carac__caracteristica-info-tex">Tejido 100% a mano</h1>
+                    <p class="landing__carac__caracteristica-info-p">Lo que hace que cada producto sea único </p>
                 </div>
             </div>
 
-            <div onmouseout="showText()" class="landing__caracteristica"
+            <div onmouseout="showText()" class="landing__carac__caracteristica"
                 style="background-image: url('./imagenes/tercero.png')">
 
-                <div class="landing__carac-info">
-                    <h1 class="landing__carac-tex">Tejidos dinámicos</h1>
-                    <p class="landing__carac-p">Puntadas únicas </p>
+                <div class="landing__carac__caracteristica-info">
+                    <h1 class="landing__carac__caracteristica-info-tex">Tejidos dinámicos</h1>
+                    <p class="landing__carac__caracteristica-info-p">Puntadas únicas </p>
                 </div>
             </div>
 
